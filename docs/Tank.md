@@ -63,7 +63,7 @@
   - 根据Tank的当前Health来更新HealthSlider
   - Tank对象的DeActive
 
-![](images\TankPhase1.gif)
+![](images/TankPhase1.gif)
 
 ## PHASE 5. SHELLS
 
