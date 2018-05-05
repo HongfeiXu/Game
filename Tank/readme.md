@@ -46,7 +46,7 @@
 
 现在，我们的Tank可以自由移动，旋转，并且有对应的音效。但，我们想让摄像机也跟随Tank运动。所以进入第三步。
 
-[TankMovement.cs](scripts\TankMovement.cs)
+[TankMovement.cs](scripts/TankMovement.cs)
 
 ### 新知识GET --- TODO
 
@@ -65,7 +65,7 @@
 - 脚本中使用到了`Vector3.SmoothDamp`以及`Mathf.SmoothDamp`用来平滑相机的移动。
 - **需要注意的是**，相机的移动以及Zoom操作放在FixedUpdate函数下，因为其所跟踪的物体是在FixedUpdate下进行运动的。
 
-[CameraControl.cs](scripts\CameraControl.cs)
+[CameraControl.cs](scripts/CameraControl.cs)
 
 ### 新知识GET --- TODO
 
@@ -82,9 +82,9 @@
   - 根据Tank的当前Health来更新HealthSlider
   - Tank对象的DeActive
 
-[UIDirectionControl.cs](scripts\UIDirectionControl.cs)
+[UIDirectionControl.cs](scripts/UIDirectionControl.cs)
 
-[TankHealth.cs](scripts\TankHealth.cs)
+[TankHealth.cs](scripts/TankHealth.cs)
 
 ### 新知识GET --- TODO
 
@@ -102,7 +102,7 @@
   - 清理Shell GameObject 以及 ShellExplosion GameObject
 - 将脚本附加到Shell GameObject上，并且将ShellExplosion拉入公共变量框Explosion Particles, Explosion Audio Source中。
 
-[ShellExplosion.cs](scripts\ShellExplosion.cs)
+[ShellExplosion.cs](scripts/ShellExplosion.cs)
 
 ### 新知识GET
 
