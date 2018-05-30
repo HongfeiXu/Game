@@ -126,7 +126,17 @@
 
 [ShellExplosion.cs](scripts/TankShooting.cs)
 
-## PHASE 7. GAME MAAGERS
+## PHASE 7. GAME MANAGERS
+
+![](images/TankPhase7.gif)
+
+
+
+- MessageCanvas
+- TankManager.cs
+- SceneManager.cs
+
+
 
 
 
